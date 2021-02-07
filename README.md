@@ -244,11 +244,13 @@ Log stream screenshot
 
 
 ## Enhancements
+<A short description of how to improve the project in the future>
 
-<TODO: A short description of how to improve the project in the future>
+As a newbie in Devops and particularly in Azure i can not say much about how to improve the project. But I feel I could have benefited much if the project had been prolonged to the end of the course  as a major project. As a major project, it would have made sense for me to actually use Trello meaningfully on the project and also the project plan.
 
 ## Demo 
 
 <TODO: Add link Screencast on YouTube>
+I am working on this as all the tools I have tried to use are slowing my computer and the video lags. I will submit again this afternoon when i have worked out what to.
 
 
