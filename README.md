@@ -173,7 +173,7 @@ Now it is time to run ``make all`` which will install, lint, and test code. This
 
 
 ## Project running on Azure App Service
-I created the Resource group and the App Service from the Azure Cloud Shell using the following : ``az webapp up --sku B1 --name flaskproject-ml``. This created the Resource group in the Azure Consol:
+I created the Resource group and the App Service from the Azure Cloud Shell using the following : ``az webapp up --sku F1 --name flaskproject-ml``. This created the Resource group in the Azure Consol:
 
 ![alti-img](https://github.com/corneyc/AgileDevelopmentwithAzure-Project-2/blob/main/flask-sklearn/images/rg.png)
 
