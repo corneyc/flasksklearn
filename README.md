@@ -9,7 +9,7 @@ I am using a pre-trained, ``sklearn`` model that has been trained to predict hou
 ## Project Plan
 
 
-* [A link to a Trello board for the project](https://trello.com/invite/b/ovORHXlN/e5107d7ce5e406b9f8ec1e65714e5f9b/agiledevelopmentwithazure-project2)
+* [A link to a Trello board for the project](https://trello.com/b/ovORHXlN)
 * [A link to a spreadsheet that includes the original and final project plan](screenshots/project-management.xlsx)
 
 ## Instructions
