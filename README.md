@@ -10,7 +10,7 @@ I am using a pre-trained, ``sklearn`` model that has been trained to predict hou
 
 
 * [A link to a Trello board for the project](https://trello.com/b/ovORHXlN)
-* [A link to a spreadsheet that includes the original and final project plan](screenshots/project-management.xlsx)
+* [A link to a spreadsheet that includes the original and final project plan](https://github.com/corneyc/flasksklearn/blob/main/images/project-management.xlsx)
 
 ## Instructions
  
