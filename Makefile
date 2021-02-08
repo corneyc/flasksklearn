@@ -10,7 +10,7 @@ test:
 	#python -m pytest --nbval notebook.ipynb
 
 lint:
-	pylint --disable=R,C app.py
+	pylint --disable=R,C,W1203 app.py
 	#hadolint Dockerfile #uncomment to explore linting Dockerfiles
 
 all: install lint test
