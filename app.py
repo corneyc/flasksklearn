@@ -35,7 +35,7 @@ def home():
 # TO DO:  Log out the prediction value
 @app.route("/predict", methods=['POST'])
 def predict():
-    """Performs an sklearn prediction
+     Performs an sklearn prediction
 
     input looks like:
             {
@@ -60,8 +60,8 @@ def predict():
 
     result looks like:
     { "prediction": [ 20.35373177134412 ] }
-
-    """
+    
+   
     try:
         clf = joblib.load("boston_housing_prediction.joblib")
     except:
