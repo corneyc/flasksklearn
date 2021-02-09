@@ -3,8 +3,12 @@ from flask.logging import create_logger
 import logging
 
 import pandas as pd
+<<<<<<< HEAD
 #from sklearn.external.joblib as extjoblib 
 import joblib
+=======
+from sklearn.externals import joblib
+>>>>>>> dacd05d80242b49e4037365d25ea0a8661d95cc0
 from sklearn.preprocessing import StandardScaler
 
 app = Flask(__name__)
@@ -14,7 +18,11 @@ LOG.setLevel(logging.INFO)
 def scale(payload):
     """Scales Payload"""
 
+<<<<<<< HEAD
     LOG.info(f"Scaling Payload: {payload}")
+=======
+    LOG.info("Scaling Payload: %s payload")
+>>>>>>> dacd05d80242b49e4037365d25ea0a8661d95cc0
     scaler = StandardScaler().fit(payload)
     scaled_adhoc_predict = scaler.transform(payload)
     return scaled_adhoc_predict

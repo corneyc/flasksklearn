@@ -9,8 +9,13 @@ I am using a pre-trained, ``sklearn`` model that has been trained to predict hou
 ## Project Plan
 
 
+<<<<<<< HEAD
 * [A link to a Trello board for the project](https://trello.com/invite/b/ovORHXlN/e5107d7ce5e406b9f8ec1e65714e5f9b/agiledevelopmentwithazure-project2)
 * [A link to a spreadsheet that includes the original and final project plan](screenshots/project-management.xlsx)
+=======
+* [A link to a Trello board for the project](https://trello.com/b/ovORHXlN)
+* [A link to a spreadsheet that includes the original and final project plan](https://github.com/corneyc/flasksklearn/blob/main/images/project-management.xlsx)
+>>>>>>> dacd05d80242b49e4037365d25ea0a8661d95cc0
 
 ## Instructions
  
@@ -173,7 +178,11 @@ Now it is time to run ``make all`` which will install, lint, and test code. This
 
 
 ## Project running on Azure App Service
+<<<<<<< HEAD
 I created the Resource group and the App Service from the Azure Cloud Shell using the following : ``az webapp up --sku B1 --name flaskproject-ml``. This created the Resource group in the Azure Consol:
+=======
+I created the Resource group and the App Service from the Azure Cloud Shell using the following : ``az webapp up --sku F1 --name flaskproject-ml``. This created the Resource group in the Azure Consol:
+>>>>>>> dacd05d80242b49e4037365d25ea0a8661d95cc0
 
 ![alti-img](https://github.com/corneyc/AgileDevelopmentwithAzure-Project-2/blob/main/flask-sklearn/images/rg.png)
 
@@ -250,7 +259,12 @@ As a newbie in Devops and particularly in Azure i can not say much about how to 
 
 ## Demo 
 
+<<<<<<< HEAD
 <TODO: Add link Screencast on YouTube>
+=======
+A Screencast link on YouTube
+
+>>>>>>> dacd05d80242b49e4037365d25ea0a8661d95cc0
 I am working on this as all the tools I have tried to use are slowing my computer and the video lags. I will submit again this afternoon when i have worked out what to.
 
 
