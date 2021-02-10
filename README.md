@@ -8,9 +8,9 @@ I am using a pre-trained, ``sklearn`` model that has been trained to predict hou
 
 ## Project Plan
 
-![A link for a Trello board for project management](https://trello.com/b/ovORHXlN)
+[Trello board](https://trello.com/b/ovORHXlN)
 
-![A link for a Spreadsheet for project management](https://github.com/corneyc/flasksklearn/blob/main/images/project-management.xlsx)
+[Project management Spreadsheet](https://github.com/corneyc/flasksklearn/blob/main/images/project-management.xlsx)
 
 ## Instructions
  
