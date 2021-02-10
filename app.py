@@ -50,6 +50,7 @@ def predict():
     result looks like:
     { "prediction": [ 20.35373177134412 ] }
     """
+
     try:
         clf = joblib.load("boston_housing_prediction.joblib")
     except:
@@ -57,13 +58,12 @@ def predict():
         return "Model not loaded"
 
     json_payload = request.json
-    LOG.info(f"JSON payload: {json_payload}")
+    LOG.info("JSON payload: %s json_payload")
     inference_payload = pd.DataFrame(json_payload)
-    LOG.info(f"inference payload DataFrame: {inference_payload}")
+    LOG.info("inference payload DataFrame: %s inference_payload")
     scaled_payload = scale(inference_payload)
     prediction = list(clf.predict(scaled_payload))
     return jsonify({'prediction': prediction})
 
 if __name__ == "__main__":
-    clf = joblib.load("boston_housing_prediction.joblib")
     app.run(host='0.0.0.0', port=5000, debug=True)
