@@ -12,6 +12,8 @@ I am using a pre-trained, ``sklearn`` model that has been trained to predict hou
 
 [Project management Spreadsheet](https://github.com/corneyc/flasksklearn/blob/main/images/project-management.xlsx)
 
+![Python application test with Github Actions](https://github.com/corneyc/flasksklearn/workflows/Python%20application%20test%20with%20Github%20Actions/badge.svg)
+
 ## Instructions
  
 * Architectural Diagram (Showing how key parts of the system work)
@@ -255,13 +257,9 @@ As a newbie in Devops and particularly in Azure i can not say much about how to 
 ## Demo 
 
 
-<TODO: Add link Screencast on YouTube>
-
-A Screencast link on YouTube
+[Screencast on YouTube](https://youtu.be/SxQ0t7j4tvM)
 
 
-I am working on this as all the tools I have tried to use are slowing my computer and the video lags. I will submit again this afternoon when i have worked out what to.
 
 
-[![Build Status](https://dev.azure.com/flasksklearn/flasktest/_apis/build/status/corneyc.flasksklearn?branchName=main)](https://dev.azure.com/flasksklearn/flasktest/_build/latest?definitionId=3&branchName=main)
 
