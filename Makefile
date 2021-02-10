@@ -9,11 +9,10 @@ test:
 	#python -m pytest -vv --cov=myrepolib tests/*.py
 	#python -m pytest --nbval notebook.ipynb
 lint:
+	pylint --disable=R,C,W1203,E0001,E999 app.py
 	pylint --disable=R,C,W1203,E999 app.py
 	#uncomment to explore linting Dockerfiles
 	#hadolint Dockerfile 
 	
 
-
 all: install lint test
-
