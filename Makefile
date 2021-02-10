@@ -14,4 +14,8 @@ lint:
 	#hadolint Dockerfile 
 	
 
+<<<<<<< HEAD
 all: install lint test
+=======
+all: install lint test
+>>>>>>> e9e66ab6988ca9521cff5ec8218b04beb08e9ca4

@@ -1,12 +1,5 @@
-<<<<<<< HEAD
-pytest==6.2.0
-Flask==1.0.2
-pandas==1.2.1
-scikit-learn==0.24.1
-=======
 pylint
 pytest
 Flask==1.0.2
 pandas
 scikit-learn==0.20.3
->>>>>>> dacd05d80242b49e4037365d25ea0a8661d95cc0

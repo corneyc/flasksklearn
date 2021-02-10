@@ -8,27 +8,16 @@ trigger:
 
 variables:
   # Azure Resource Manager connection created during pipeline creation
-<<<<<<< HEAD
-  azureServiceConnectionId: '44c898c2-73af-4b7f-ba48-675f69db734d'
-
-  # Web app name
-  webAppName: ''
-=======
-  azureServiceConnectionId: '7931a3c6-7ef0-4d49-a641-a50e2b3f6a28'
+  azureServiceConnectionId: '8e1b8de9-3e7b-41f2-b529-e84363ff6974'
 
   # Web app name
   webAppName: 'flasksklearn'
->>>>>>> dacd05d80242b49e4037365d25ea0a8661d95cc0
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
 
   # Environment name
-<<<<<<< HEAD
-  environmentName: ''
-=======
   environmentName: 'flasksklearn'
->>>>>>> dacd05d80242b49e4037365d25ea0a8661d95cc0
 
   # Project root folder. Point to the folder containing manage.py file.
   projectRoot: $(System.DefaultWorkingDirectory)
@@ -57,7 +46,6 @@ stages:
         pip install -r requirements.txt
       workingDirectory: $(projectRoot)
       displayName: "Install requirements"
-
     - task: ArchiveFiles@2
       displayName: 'Archive files'
       inputs:
@@ -91,11 +79,7 @@ stages:
             displayName: 'Use Python version'
 
           - task: AzureWebApp@1
-<<<<<<< HEAD
-            displayName: 'Deploy Azure Web App : '
-=======
             displayName: 'Deploy Azure Web App : flasksklearn'
->>>>>>> dacd05d80242b49e4037365d25ea0a8661d95cc0
             inputs:
               azureSubscription: $(azureServiceConnectionId)
               appName: $(webAppName)
