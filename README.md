@@ -167,6 +167,7 @@ def test_hello_subtract():
     assert subtract(test_hello_subtract.x) == 9
 ```
 
+
 3. Local Test
 
 Now it is time to run ``make all`` which will install, lint, and test code. This enables us to ensure we don't check in broken code to GitHub as it installs, lints, and tests the code in one command. Later we will have a remote build server perform the same step. The following screen is the outcome.
@@ -186,6 +187,7 @@ And the App name flaskproject-ml was also created in the App services.
 
 ![alti-img](https://github.com/corneyc/AgileDevelopmentwithAzure-Project-2/blob/main/flask-sklearn/images/appname.png)
 
+
 Running ``az webapp up flaskproject-ml`` produced the following screen:
 
 ![alti-img](https://github.com/corneyc/AgileDevelopmentwithAzure-Project-2/blob/main/flask-sklearn/images/az_web_up.png)
@@ -200,6 +202,7 @@ Running ``make all`` produced the following:
 
 The project repository was cloned into Azure Cloud Shell using ``git clone git@github.com:corneyc/AgileDevelopmentwithAzure-Project-2.git``
 ![alti-img](https://github.com/corneyc/AgileDevelopmentwithAzure-Project-2/blob/main/flask-sklearn/images/proj_cloned.png)
+
 
 ## Output of a test run
 
@@ -243,6 +246,9 @@ With ``cat ./make_predict_azure_app.sh``
 
 
 ![alt-img](https://github.com/corneyc/AgileDevelopmentwithAzure-Project-2/blob/main/flask-sklearn/images/build_deploy_github.png)
+
+![Build and deploy Python app to Azure Web App - flaskproject-ml](https://github.com/corneyc/AgileDevelopmentwithAzure-Project-2/workflows/Build%20and%20deploy%20Python%20app%20to%20Azure%20Web%20App%20-%20flaskproject-ml/badge.svg)
+
 
 Log stream screenshot
 
