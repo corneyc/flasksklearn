@@ -8,14 +8,8 @@ I am using a pre-trained, ``sklearn`` model that has been trained to predict hou
 
 ## Project Plan
 
-
-<<<<<<< HEAD
-* [A link to a Trello board for the project](https://trello.com/invite/b/ovORHXlN/e5107d7ce5e406b9f8ec1e65714e5f9b/agiledevelopmentwithazure-project2)
-* [A link to a spreadsheet that includes the original and final project plan](screenshots/project-management.xlsx)
-=======
-* [A link to a Trello board for the project](https://trello.com/b/ovORHXlN)
-* [A link to a spreadsheet that includes the original and final project plan](https://github.com/corneyc/flasksklearn/blob/main/images/project-management.xlsx)
->>>>>>> dacd05d80242b49e4037365d25ea0a8661d95cc0
+![A link for a Trello board for project management](https://trello.com/b/ovORHXlN)
+![A link for a Spreadsheet for project management](https://trello.com/b/ovORHXlN)
 
 ## Instructions
  
