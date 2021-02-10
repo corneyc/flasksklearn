@@ -1,4 +1,5 @@
 import random
+import joblib
 from locust import HttpUser, task, TaskSet
 
 class MyTaskSet(HttpUser):
