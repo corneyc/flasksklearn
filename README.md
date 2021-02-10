@@ -255,6 +255,10 @@ Log stream screenshot
 ![alt-img](https://github.com/corneyc/AgileDevelopmentwithAzure-Project-2/blob/main/flask-sklearn/images/Log_stream.png)
 
 
+![img](https://github.com/corneyc/flasksklearn/blob/main/images/commands.png)
+
+
+![img](https://github.com/corneyc/flasksklearn/blob/main/images/commands_1.png)
 
 ![Python application test with Github Actions](https://github.com/corneyc/flasksklearn/workflows/Python%20application%20test%20with%20Github%20Actions/badge.svg)
 
