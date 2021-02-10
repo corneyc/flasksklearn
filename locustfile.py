@@ -1,18 +1,30 @@
-from locust import HttpUser, TaskSet, task
-
-class MyTask(TaskSet):
+import random
+from locust import HttpUser, task, between
+class QuickstartUser(HttpUser):
+    wait_time = between(5, 10)
     @task
-    def get_root_path(self):
+    def index(self):
         self.client.get("/")
-    
-    @task
-    def get_predictions(self):
-        self.client.get("/predict")
-
-class MyLocust(HttpUser):
-    task_set = MyTask
-
-    min_wait = 1000
-    max_wait = 2000
-
+    @task(3)
+    def checkPredict(self):
+        self.client.post("/predict", json={
+            "CHAS":{
+                "0":0
+            },
+            "RM":{
+                "0":6.575
+            },
+            "TAX":{
+                "0":296.0
+            },
+            "PTRATIO":{
+                "0":15.3
+            },
+            "B":{
+                "0":396.9
+            },
+            "LSTAT":{
+                "0":4.98
+            }
+        })
     
