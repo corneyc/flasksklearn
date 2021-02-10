@@ -1,3 +1,5 @@
+#Commands used
+
 az login
 
 python3 --version
@@ -15,6 +17,7 @@ pip install -r requirements.txt
 flask run
 
 az webapp up --sku F1 --name <app-name>
+az webapp up --sk F1 --name flasksklearn
 
 az webapp up
 
