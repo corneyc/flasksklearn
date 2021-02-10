@@ -106,7 +106,7 @@ lint:
 all: install lint test
 ```
 
-###This is how the code will look like:
+This is how the code will look like:
 
 ![alt-img](https://github.com/corneyc/AgileDevelopmentwithAzure-Project-2/blob/main/flask-sklearn/images/Cloud_screen_15.png)
 
@@ -165,7 +165,7 @@ def test_hello_subtract():
     assert subtract(test_hello_subtract.x) == 9
 ```
 
-###3. Local Test
+3. Local Test
 
 Now it is time to run ``make all`` which will install, lint, and test code. This enables us to ensure we don't check in broken code to GitHub as it installs, lints, and tests the code in one command. Later we will have a remote build server perform the same step. The following screen is the outcome.
 
@@ -209,7 +209,7 @@ Launching the app at ``https://flaskproject-ml.azurewebsites.net/`` yielded the 
 
 ## Successful deploy of the project in Azure Pipelines. 
 
-###Azure Deployment center
+Azure Deployment center
 
 ![alti-img](https://github.com/corneyc/AgileDevelopmentwithAzure-Project-2/blob/main/flask-sklearn/images/azure_deploy.png)
 
@@ -262,4 +262,6 @@ A Screencast link on YouTube
 
 I am working on this as all the tools I have tried to use are slowing my computer and the video lags. I will submit again this afternoon when i have worked out what to.
 
+
+![Build Status](https://dev.azure.com/flasksklearn/flasktest/_apis/build/status/corneyc.flasksklearn?branchName=main)](https://dev.azure.com/flasksklearn/flasktest/_build/latest?definitionId=3&branchName=main)
 
