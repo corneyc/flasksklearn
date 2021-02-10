@@ -3,4 +3,4 @@ pytest
 Flask==1.0.2
 pandas
 scikit-learn==0.20.3
-locust
+locust==1.4.3
