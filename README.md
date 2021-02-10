@@ -263,5 +263,5 @@ A Screencast link on YouTube
 I am working on this as all the tools I have tried to use are slowing my computer and the video lags. I will submit again this afternoon when i have worked out what to.
 
 
-![Build Status](https://dev.azure.com/flasksklearn/flasktest/_apis/build/status/corneyc.flasksklearn?branchName=main)
+[![Build Status](https://dev.azure.com/flasksklearn/flasktest/_apis/build/status/corneyc.flasksklearn?branchName=main)](https://dev.azure.com/flasksklearn/flasktest/_build/latest?definitionId=3&branchName=main)
 
