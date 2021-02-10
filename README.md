@@ -220,6 +220,7 @@ Azure Deployement center
 
 ![alti-img](https://github.com/corneyc/AgileDevelopmentwithAzure-Project-2/blob/main/flask-sklearn/images/deploy_az%20_webapp.png)
 
+[![Build Status](https://dev.azure.com/flasksklearn/flasktest/_apis/build/status/corneyc.flasksklearn?branchName=main)](https://dev.azure.com/flasksklearn/flasktest/_build/latest?definitionId=3&branchName=main)
 
 ## Successful prediction from deployed flask app in Azure Cloud Shell.  
 The output should look similar to this:
