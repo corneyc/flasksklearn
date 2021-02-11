@@ -10,7 +10,7 @@ I am using a pre-trained, ``sklearn`` model that has been trained to predict hou
 
 [Trello Agile board](https://trello.com/b/ovORHXlN)
 
-[Project management Spreadsheet](https://github.com/corneyc/flasksklearn/blob/main/images/project-management.xlsx)
+[Project management Spreadsheet](https://github.com/corneyc/flasksklearn/blob/main/project-management.xlsx)
 
 ![Python application test with Github Actions](https://github.com/corneyc/flasksklearn/workflows/Python%20application%20test%20with%20Github%20Actions/badge.svg)
 
