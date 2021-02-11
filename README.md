@@ -276,3 +276,4 @@ As a newbie in Devops and particularly in Azure i can not say much about how to 
 ![Python application test with Github Actions](https://github.com/corneyc/flasksklearn/workflows/Python%20application%20test%20with%20Github%20Actions/badge.svg)
 
 
+Thank you
