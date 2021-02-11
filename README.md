@@ -8,7 +8,7 @@ I am using a pre-trained, ``sklearn`` model that has been trained to predict hou
 
 ## Project Plan
 
-[Trello board](https://trello.com/b/ovORHXlN)
+[Trello Agile board](https://trello.com/b/ovORHXlN)
 
 [Project management Spreadsheet](https://github.com/corneyc/flasksklearn/blob/main/images/project-management.xlsx)
 
@@ -269,7 +269,6 @@ Log stream screenshot
 As a newbie in Devops and particularly in Azure i can not say much about how to improve the project. But I feel I could have benefited much if the project had been prolonged to the end of the course  as a major project. As a major project, it would have made sense for me to actually use Trello meaningfully on the project and also the project plan.
 
 ## Demo 
-
 
 [Screencast on YouTube](https://youtu.be/SxQ0t7j4tvM)
 
